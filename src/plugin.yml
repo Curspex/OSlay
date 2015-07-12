@@ -1,0 +1,18 @@
+name: OSlay
+main: com.adamedw.oslay.OSlay
+version: 1.0.0
+author: Packet
+description: Offline player slaying.
+website: http://adamedw.com
+
+commands:
+  oslay:
+    description: Offline player slaying.
+    usage: /<command> <player/uuid>
+    aliases: [offlineslay, offslay, okill, offlinekill, offkill]
+    permission: oslay.use
+
+permissions:
+  oslay.use:
+    default: op
+    description: Allows offline player slaying (/oslay)
